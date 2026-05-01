@@ -15,3 +15,14 @@ Solves kinematic equations analytically for seven solar system bodies (Earth, Mo
 Stack:
 numpy — numerical integration, vector math
 matplotlib — rendering, LineCollection for gradient trails, colormaps
+
+Run:
+bash
+pip install numpy matplotlib
+python astro_simulations.py
+Output is saved as astro_simulations.png alongside a live plot window.
+
+Integrators used: Velocity Verlet (Kepler), RK4 (N-body). All simulations run in dimensionless or SI units with inline documentation of the governing equations.
+
+<img width="2559" height="1847" alt="astro_simulations (1)" src="https://github.com/user-attachments/assets/f4d1b2b0-221c-4010-ab53-9d14938c5c55" />
+
